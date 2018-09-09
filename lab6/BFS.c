@@ -77,7 +77,6 @@ void BFS(struct arr_node * arr , int size , char * color , int * d , struct arr_
   for(i=0 ; i< size; i++){
     color[i] ='w';
   }
-
   enQueue(Q,arr[0].c);
   color[0] = 'g'; d[0]=0;
 
@@ -100,8 +99,6 @@ void BFS(struct arr_node * arr , int size , char * color , int * d , struct arr_
     }
 
   }
-
-
 }
 
 int main(){
